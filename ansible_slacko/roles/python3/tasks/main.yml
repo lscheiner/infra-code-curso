@@ -1,0 +1,16 @@
+---
+  - name: Instalando python3
+    apt:
+      name: python3 
+      update_cache: yes
+      state: present
+
+  - name: Instalando python3-pip
+    apt:
+      name: python3-pip 
+      update_cache: yes
+      state: present
+ 
+  - name: Rodando requeriments.txt
+    pip:
+      requirements: /opt/slacko-api/requeriments.txt      

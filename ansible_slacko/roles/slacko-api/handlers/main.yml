@@ -1,0 +1,6 @@
+---
+    - name: Iniciar slacko-api
+      service:
+        name: slacko-api
+        state: started
+        enabled: yes

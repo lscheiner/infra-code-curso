@@ -1,0 +1,6 @@
+---
+  - name: Git checkout do projeto
+    ansible.builtin.git:
+      repo: 'https://github.com/LeonardoDG2084/iaac_slacko-api.git'
+      dest: /opt/slacko-api
+      version: master

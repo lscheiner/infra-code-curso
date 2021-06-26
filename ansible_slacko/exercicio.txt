@@ -18,8 +18,8 @@ Esse playbook deve ter as seguintes propriedades:
 
 6 - Efetuar a instalação do mongo-express na sua versão docker. (imagem: mongo-express:0.54.0) (modulo docker_container)
 
-7 - Se utilizando de Tags executar o playbook que seja capaz de atualizar a aplicação e efetuar o restart.
+7 - Se utilizando de Tags executar o playbook que seja capaz de atualizar a aplicação e efetuar o restart. -- OK
 
-8 - O local de instalação deve-ser parametrizavel, na documentação ele pede que seja em /opt/slacko-api/ (modulo - fileinline)
+8 - O local de instalação deve-ser parametrizavel, na documentação ele pede que seja em /opt/slacko-api/ (modulo - fileinline)  
 
 Obs: A nota máxima será obtida ao atingir todos os objetivos.

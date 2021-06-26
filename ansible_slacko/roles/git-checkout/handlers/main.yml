@@ -1,0 +1,18 @@
+---
+    - name: Rodando requeriments.txt
+      pip:
+        requirements: /opt/slacko-api/requeriments.txt
+      
+    - name: Criar Service
+      copy:
+        src: slacko-api.service
+        dest: /etc/systemd/system
+        owner: root
+        group: root
+        
+    - name: Reiniciar slacko-api
+      service:
+        name: slacko-api
+        state: restarted
+        enabled: yes
+

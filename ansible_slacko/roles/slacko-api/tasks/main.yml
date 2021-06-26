@@ -1,8 +1,0 @@
----
-  - name: Criando o serviço
-    copy:
-      src: slacko-api.service
-      dest: /etc/systemd/system
-      owner: root
-      group: root
-    notify: Iniciar slacko-api

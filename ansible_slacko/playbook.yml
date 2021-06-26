@@ -1,6 +1,5 @@
 - hosts: remoto
   roles:
-    - git-checkout
     - python3
     - mongodb
-    - slacko-api
+    - git-checkout
